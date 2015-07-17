@@ -1,0 +1,135 @@
+body{
+    color: #ffffff;
+    background-color: #231e76;
+}
+
+header{
+    height: 800px;
+    background-color: #231e76;
+    padding-bottom: 400px;
+}
+
+.logo{
+    height: 250px;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+    padding-top: 25%;
+}
+
+.cadre{
+    width: 100%;
+    height: 100%;
+    max-width:200px;
+    border: 1px solid #ffffff;
+    margin-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20%; 
+    text-align: center;
+    font-size:50px;
+}
+
+nav .cadre{
+    padding: 15%; 
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+nav .cadre:hover{
+    background-color: #ffffff;
+}
+
+nav a .cadre:hover{
+    color: #231e76;
+}
+
+#love .cadre{
+    margin-top: 10%;
+    -webkit-transition: border-bottom 0.5s, padding-bottom 0.5s;
+    transition: border-bottom 0.5s, padding-bottom 0.5s;
+}
+
+#love .cadre:hover{
+    border-bottom: 40px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration:none;
+}
+
+a .cadre{
+    color: #ffffff;
+}
+
+.glyphicon{
+    font-size: 40px;
+}
+
+.container{
+    padding-top: 5%;
+}
+
+.glyphicon-chevron-up{
+    margin-bottom: 40px;
+    margin-left: 3px;
+}
+
+#love{
+    height: 700px;
+    background: #2072a7;
+    color: #ffffff;
+}
+
+#about{
+    height: 700px;
+    background: #231e76;
+    color: #ffffff;
+}
+
+#about p{
+    margin-top: 200px;
+}
+
+section a:hover {
+    color: #fff;
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 100px;
+    position: relative;    
+    background: #2072a7;
+    color: #fff;
+}
+
+section h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+section p {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+
+section.color h2 {
+    color: #fff;
+}
